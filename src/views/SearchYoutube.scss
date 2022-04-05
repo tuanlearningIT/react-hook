@@ -1,0 +1,50 @@
+.youtube-container {
+    height: 100%;
+
+
+    .yt-body {
+        display: flex;
+
+        margin: 27px;
+
+        .yt-left {
+
+            width  : 40%;
+            padding: 10px;
+
+            .iframe {
+                width      : 50%;
+                height     : 225px;
+                margin-left: 240px;
+            }
+        }
+
+        .yt-right {
+            text-align    : left;
+            display       : flex;
+            flex-direction: column;
+            gap           : 15px;
+            padding       : 10px 20px 20px 20px;
+            margin-left   : -41px;
+
+            .title {
+                font-size  : 20px;
+                font-weight: 600;
+            }
+
+            .created-at {
+                font-size: 13px;
+            }
+
+            .author {
+                font-size: 13px;
+            }
+
+            .description {
+                font-size: 13px;
+            }
+        }
+    }
+
+
+}
